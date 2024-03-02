@@ -10,7 +10,6 @@ AB_OTA_PARTITIONS += \
     gz \
     lk \
     md1img \
-    preloader_raw \
     scp \
     spmfw \
     sspm \
