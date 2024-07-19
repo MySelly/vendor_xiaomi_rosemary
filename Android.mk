@@ -6,4 +6,17 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),rosemary)
 
+$(call add-radio-file-sha1-checked,radio/audio_dsp.img,6dedf567fe7c3f9030e146df6d655f11504b18cb)
+$(call add-radio-file-sha1-checked,radio/cam_vpu1.img,b06071a616c9ea75db01f6efad80e51de60b2cde)
+$(call add-radio-file-sha1-checked,radio/cam_vpu2.img,126c2cb27adad46c161a69197d84b45d51be10ac)
+$(call add-radio-file-sha1-checked,radio/cam_vpu3.img,c6418020a3821c8f75d6c724991752c42fa84a88)
+$(call add-radio-file-sha1-checked,radio/gz.img,055953507310d71a0ff335a89f0d6b0f3966192c)
+$(call add-radio-file-sha1-checked,radio/lk.img,0be8e4d1e4c251510220e7596648e36b337e86eb)
+$(call add-radio-file-sha1-checked,radio/md1img.img,3f12044d006c3d0a20b044e8be0a70e61fba88c9)
+$(call add-radio-file-sha1-checked,radio/preloader_raw.img,a1ce2f11172e13a55728be98c031d72faf78b74b)
+$(call add-radio-file-sha1-checked,radio/scp.img,31ef72cfe5690b8c87b68bd0d1323d6354497df4)
+$(call add-radio-file-sha1-checked,radio/spmfw.img,840fdb3a780751a21c7c9b7dde05c7eee2b12aa1)
+$(call add-radio-file-sha1-checked,radio/sspm.img,30268f3573dc8e3fecbc7e468b43708c0ceaf4c6)
+$(call add-radio-file-sha1-checked,radio/tee.img,9ba9da551f93eb64504b787c3161cb52ef40f05e)
+
 endif
